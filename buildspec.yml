@@ -12,7 +12,7 @@ phases:
       - pip install --upgrade pip
   build:
     commands:
-      - echo Building
+      - echo Building..
   post_build:
     commands:
-      - echo Build completed
+      - echo Build completed!
