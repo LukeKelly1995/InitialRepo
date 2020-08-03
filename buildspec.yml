@@ -10,6 +10,7 @@ phases:
       - python3.8 --version
   build:
     commands:
+      - echo saved! > saved.txt
       - echo Building..
   post_build:
     commands:
