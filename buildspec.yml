@@ -18,4 +18,5 @@ phases:
       - pip3 install -r requirements.txt
   post_build:
     commands:
+      - python3 main.py
       - echo Build completed!
