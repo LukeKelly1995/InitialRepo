@@ -12,7 +12,7 @@ phases:
       - python3.8 --version
       - pip3 install virtualenv
       - virtualenv venv
-      - source venv/bin/activate
+      - . venv/bin/activate
   build:
     commands:
       - pip3 install -r requirements.txt
