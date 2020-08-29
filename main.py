@@ -1,4 +1,4 @@
-"""This is a test main file
+"""This is a test module
 """
 import numpy as np
 
