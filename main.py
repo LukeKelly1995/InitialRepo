@@ -1,20 +1,7 @@
-"""This is a test module
-"""
-import numpy as np
+"""This is a test script."""
 
-
-def zeros_function(a, b):
-    """This is a sample function
-
-	Args:
-		a (int): any integer
-		b (int): any integer
-	"""
-    array = np.zeros((a, b))
-    print(array)
-
+from custom_lib.numpy_utils import zeros_function
 
 if __name__ == "__main__":
-    """This is test main function
-	"""
+    """This is test main function."""
     zeros_function(2, 2)
